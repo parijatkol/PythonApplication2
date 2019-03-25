@@ -11,6 +11,10 @@ def subtraction(a,b):
         return a-b
     else:
         return b-a
+    
+def multiply(a,b):
+    return a*b
+
 
 def main():
     x = np.arange(0, radians(1800), radians(12))
